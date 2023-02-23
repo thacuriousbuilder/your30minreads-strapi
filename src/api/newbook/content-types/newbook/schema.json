@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newbooks",
+  "info": {
+    "singularName": "newbook",
+    "pluralName": "newbooks",
+    "displayName": "Newbook"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "titleText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
